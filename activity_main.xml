@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android" android:background="#070A10" android:fillViewport="true" android:layout_width="match_parent" android:layout_height="match_parent">
+<LinearLayout android:orientation="vertical" android:padding="18dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+<TextView android:text="🔥 Free Fire Low-End Booster" android:textColor="#FFFFFF" android:textSize="24sp" android:textStyle="bold" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+<TextView android:text="خفض دقة العرض على مستوى النظام حيث يدعم هاتفك ذلك، ثم تشغيل Free Fire. يحتاج Shizuku بصلاحية ADB/Root." android:textColor="#B9C4D8" android:textSize="14sp" android:layout_marginTop="7dp" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+
+<Spinner android:id="@+id/level" android:layout_marginTop="18dp" android:layout_width="match_parent" android:layout_height="50dp"/>
+<Button android:id="@+id/apply" android:text="⚡ تطبيق وضع الهاتف الضعيف" android:layout_width="match_parent" android:layout_height="55dp"/>
+<Button android:id="@+id/reset" android:text="↩️ إرجاع الوضع الطبيعي" android:layout_width="match_parent" android:layout_height="52dp"/>
+<Button android:id="@+id/launch" android:text="🎮 تشغيل Free Fire" android:layout_width="match_parent" android:layout_height="52dp"/>
+<Button android:id="@+id/shizuku" android:text="🔐 فحص Shizuku / طلب الصلاحية" android:layout_width="match_parent" android:layout_height="52dp"/>
+
+<TextView android:id="@+id/status" android:text="الحالة: لم يبدأ" android:textColor="#7DE2B4" android:textSize="14sp" android:layout_marginTop="16dp" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+<TextView android:text="المستويات: 80% = خفض بسيط، 70% = قوي، 60% = قوي جدًا. بعض الأجهزة/الإصدارات قد لا تدعم التدخل؛ عندها سيخبرك التطبيق بدل الادعاء بأنه نجح." android:textColor="#AEB9CE" android:textSize="13sp" android:layout_marginTop="12dp" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+</LinearLayout></ScrollView>
